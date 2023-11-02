@@ -1,4 +1,6 @@
-# EDA-Telco Customer Churn
+# Exploratory Data Analysis Telco Customer Churn
+
+![telco customer](https://github.com/Rizal-A/EDA-Telco_Customer_Churn/blob/main/assets/telco%20customer.png)
 
 This is a Exploratory Data Analysis of the Telco Customer Churn.
 
@@ -35,7 +37,7 @@ This public dataset was obtained from Kaggle Dataset [Dataset Telco Customer Chu
 20. TotalCharges : customer's total bill
 21. Churn : whether the customer Churn ("Yes"|"No")
 
-**The things done on this dataset are**
+## The things done on this dataset are
 
 1. Preparation Data
 2. Data Cleaning (Missing Values, Duplicated Check)
@@ -47,7 +49,7 @@ This public dataset was obtained from Kaggle Dataset [Dataset Telco Customer Chu
    * Deep Dive Exploration
 5. EDA Conclusion
 
-**Here the results**
+## Here the results
 
 1. The dataset in the TotalCharges column, previously the object data type was converted to float, there was an error because it contained a string. After checking it turns out that there is data that contains whitespace strings so that only data that does not contain strings is taken so that the amount of data becomes 7032, after which it is converted to float data type.
 2. There is no duplicate data
